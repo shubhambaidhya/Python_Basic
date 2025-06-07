@@ -82,3 +82,26 @@ def my_function6(country='Nepal'):
 my_function6('Norway')
 my_function6()
 my_function6('England')
+
+
+# Passing a list as an Argument
+#=> we can send any data types of argument to a function and it will treat it likewise.
+
+#--------------------Example 6----------------------
+
+def my_function7(food):
+    for x in food:
+        print (x)
+
+fruits=["apple","banana","peach"] 
+
+my_function7(fruits)
+
+
+# Return Value
+
+#-----------------Example 7------------------------
+def my_function8(x):
+    return x*5
+
+print(my_function8(2))
