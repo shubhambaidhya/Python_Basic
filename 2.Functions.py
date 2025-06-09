@@ -100,7 +100,7 @@ my_function7(fruits)
 
 # Return Value
 
-#-----------------Example 7------------------------
+#-----------------Example 7-----------------------
 def my_function8(x):
     return x*5
 
