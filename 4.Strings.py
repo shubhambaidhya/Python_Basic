@@ -39,3 +39,38 @@ print(b[:5])    #Get the characters from the start to position 5 (not included)
 
 b="Hello World!"
 print(b[-5:-2])
+
+
+#strip() method => removes any whitespace from the beginning or the end:
+
+#-----------------Example 6--------------------------
+a=' Hello, World! '
+print(a.strip()) #removes the white space before and after the text
+
+
+#split()  method => splits the string into substring if it finds instances of the separator:
+
+#-----------------Example 7--------------------------
+a = 'Hello, World!'
+print(a.split(',')) 
+
+
+
+# String Format 
+
+# we will find the error in the below commented code 
+
+#age=36
+#txt='My name is John, I am'+age
+#print (txt)
+
+# To resolve this error, 'F' string was provided in Python => To specify string as an f-string, simply put 'f' in front
+# of the literal string, and add curly brackets  {}  as a placeholder for variables and other operation
+
+#------------------Example 8---------------------------
+age =35
+txt = f'My name is John, and I am {age} years old'
+print(txt)
+
+
+
